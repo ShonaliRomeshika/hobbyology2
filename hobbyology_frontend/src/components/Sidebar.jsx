@@ -30,9 +30,9 @@ const Sidebar = ({ closeToggle, user }) => {
           className="flex px-5 gap-2 my-6 pt-1 w-190 items-center"
           onClick={handleCloseSidebar}
         >
-          <img src={logo} alt="logo" className="w-full" />
+          <img src={logo} alt="logo" className="w-40" className="h-20" />
         </Link>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-4">
 
           <NavLink
             to="/"
